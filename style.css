@@ -1,0 +1,83 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
+
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.background-shape {
+    position: absolute; width: 300px; height: 300px;
+    background: rgba(255, 255, 255, 0.1); border-radius: 50%;
+    top: -50px; left: -50px; filter: blur(80px); z-index: -1;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;
+    padding: 30px; width: 100%; max-width: 900px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+header { text-align: center; margin-bottom: 20px; }
+h1 { font-size: 2.2em; font-weight: 600; }
+.legend { margin-top: 10px; font-size: 0.9em; margin-bottom: 20px;}
+.dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; }
+.vacant { background: #2ecc71; box-shadow: 0 0 10px #2ecc71;}
+.partial { background: #f1c40f; box-shadow: 0 0 10px #f1c40f;}
+.full { background: #e74c3c; box-shadow: 0 0 10px #e74c3c;}
+
+/* Filters */
+.filters { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+.filter-btn {
+    background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3);
+    color: white; padding: 8px 15px; border-radius: 20px; cursor: pointer; transition: 0.3s;
+}
+.filter-btn:hover, .filter-btn.active { background: rgba(255,255,255,0.3); font-weight: bold; }
+
+/* Grid */
+.seat-grid {
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 15px;
+}
+.seat {
+    background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px; height: 60px; display: flex; justify-content: center;
+    align-items: center; font-size: 1.2em; font-weight: bold; cursor: pointer; transition: 0.3s;
+}
+.seat:hover { transform: translateY(-5px); background: rgba(255, 255, 255, 0.2); }
+.seat.vacant { border-bottom: 4px solid #2ecc71; }
+.seat.partial { border-bottom: 4px solid #f1c40f; }
+.seat.full { border-bottom: 4px solid #e74c3c; opacity: 0.8; }
+.seat.hidden { display: none; } /* Filtering ke liye */
+
+/* Modal Popup */
+.modal-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6); backdrop-filter: blur(5px);
+    display: flex; justify-content: center; align-items: center; z-index: 100;
+}
+.modal-overlay.hidden { display: none; }
+.glass-panel {
+    background: rgba(30, 40, 60, 0.95); border: 1px solid rgba(255,255,255,0.2);
+    padding: 30px; border-radius: 15px; width: 90%; max-width: 400px; position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.close-btn { position: absolute; top: 15px; right: 20px; font-size: 1.5em; cursor: pointer; }
+form { display: flex; flex-direction: column; gap: 12px; margin-top: 15px;}
+input, select {
+    width: 100%; padding: 10px; border: none; border-radius: 8px;
+    background: rgba(255,255,255,0.9); color: #333; outline: none;
+}
+.date-row { display: flex; gap: 10px; }
+.date-row div { flex: 1; }
+.date-row label { font-size: 0.8em; color: #ccc; margin-bottom: 3px; display: block;}
+
+.modal-actions { display: flex; gap: 10px; margin-top: 10px;}
+.save-btn { flex: 2; padding: 12px; border: none; border-radius: 8px; background: #2ecc71; color: white; font-weight: bold; cursor: pointer; }
+.del-btn { flex: 1; padding: 12px; border: none; border-radius: 8px; background: #e74c3c; color: white; font-weight: bold; cursor: pointer; }
+.hidden { display: none !important; }
+#status-msg { margin-top: 10px; text-align: center; }
