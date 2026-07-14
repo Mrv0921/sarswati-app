@@ -1,15 +1,5 @@
 [
   {
-    "seatNo": "1",
-    "name": "dfgdxf",
-    "mobile": "dfbdf",
-    "address": "dfgdsgher",
-    "slot": "Full Day",
-    "joinDate": "2026-07-14",
-    "nextPayDate": "2026-07-14",
-    "price": "500"
-  },
-  {
     "seatNo": "2",
     "name": "Pallavi ",
     "mobile": "6207914171",
@@ -27,6 +17,16 @@
     "slot": "Full Day",
     "joinDate": "2026-07-14",
     "nextPayDate": "2026-08-14",
+    "price": "500"
+  },
+  {
+    "seatNo": "1",
+    "name": "dfgdxf",
+    "mobile": "dfbdf",
+    "address": "dfgdsgher",
+    "slot": "Full Day",
+    "joinDate": "2026-07-14",
+    "nextPayDate": "2026-07-14",
     "price": "500"
   }
 ]
