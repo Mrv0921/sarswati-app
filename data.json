@@ -48,5 +48,15 @@
     "joinDate": "2026-07-16",
     "nextPayDate": "2026-08-16",
     "price": "500"
+  },
+  {
+    "seatNo": "6",
+    "name": "Ram babu",
+    "mobile": "7492851033",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-16",
+    "nextPayDate": "2026-08-16",
+    "price": "500"
   }
 ]
