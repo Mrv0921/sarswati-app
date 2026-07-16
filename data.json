@@ -68,5 +68,15 @@
     "joinDate": "2026-07-16",
     "nextPayDate": "2026-08-16",
     "price": "500"
+  },
+  {
+    "seatNo": "8",
+    "name": "Anshu",
+    "mobile": "9279900614",
+    "address": "Madhubani",
+    "slot": "Full Day",
+    "joinDate": "2026-07-16",
+    "nextPayDate": "2026-08-16",
+    "price": "500"
   }
 ]
