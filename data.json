@@ -28,5 +28,15 @@
     "joinDate": "2026-07-14",
     "nextPayDate": "2026-08-14",
     "price": "500"
+  },
+  {
+    "seatNo": "3",
+    "name": "Anand kumar",
+    "mobile": "6200740615",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-16",
+    "nextPayDate": "2026-08-16",
+    "price": "500"
   }
 ]
