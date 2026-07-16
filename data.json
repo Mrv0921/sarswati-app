@@ -38,5 +38,15 @@
     "joinDate": "2026-07-14",
     "nextPayDate": "2026-08-14",
     "price": "500"
+  },
+  {
+    "seatNo": "5",
+    "name": "Pradeep kumar",
+    "mobile": "7079715360",
+    "address": "Patahi",
+    "slot": "Full Day",
+    "joinDate": "2026-07-16",
+    "nextPayDate": "2026-08-16",
+    "price": "500"
   }
 ]
