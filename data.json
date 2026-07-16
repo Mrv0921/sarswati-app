@@ -1,15 +1,5 @@
 [
   {
-    "seatNo": "2",
-    "name": "Pallavi ",
-    "mobile": "6207914171",
-    "address": "Bajrangpuram ",
-    "slot": "Full Day",
-    "joinDate": "2026-07-14",
-    "nextPayDate": "2026-08-14",
-    "price": "500"
-  },
-  {
     "seatNo": "4",
     "name": "Anmol",
     "mobile": "8210079002",
@@ -27,6 +17,16 @@
     "slot": "Full Day",
     "joinDate": "2026-07-16",
     "nextPayDate": "2026-08-16",
+    "price": "500"
+  },
+  {
+    "seatNo": "2",
+    "name": "subham",
+    "mobile": "8507359606",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-14",
+    "nextPayDate": "2026-08-14",
     "price": "500"
   }
 ]
