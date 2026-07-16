@@ -58,5 +58,15 @@
     "joinDate": "2026-07-16",
     "nextPayDate": "2026-08-16",
     "price": "500"
+  },
+  {
+    "seatNo": "7",
+    "name": "Bharti",
+    "mobile": "6207466083",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-16",
+    "nextPayDate": "2026-08-16",
+    "price": "500"
   }
 ]
