@@ -118,5 +118,15 @@
     "joinDate": "2026-07-17",
     "nextPayDate": "2026-08-17",
     "price": "500"
+  },
+  {
+    "seatNo": "14",
+    "name": "Ritik",
+    "mobile": "9123136016",
+    "address": "Bibiganj",
+    "slot": "Full Day",
+    "joinDate": "2026-07-17",
+    "nextPayDate": "2026-08-17",
+    "price": "500"
   }
 ]
