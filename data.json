@@ -88,5 +88,15 @@
     "joinDate": "2026-07-17",
     "nextPayDate": "2026-08-17",
     "price": "500"
+  },
+  {
+    "seatNo": "10",
+    "name": "Subham kumar",
+    "mobile": "9546995130",
+    "address": "Yadav nagar",
+    "slot": "Full Day",
+    "joinDate": "2026-07-17",
+    "nextPayDate": "2026-08-17",
+    "price": "500"
   }
 ]
