@@ -78,5 +78,15 @@
     "joinDate": "2026-07-16",
     "nextPayDate": "2026-08-16",
     "price": "500"
+  },
+  {
+    "seatNo": "9",
+    "name": "Avadesh kumar",
+    "mobile": "7634808098",
+    "address": "Patahi",
+    "slot": "Full Day",
+    "joinDate": "2026-07-17",
+    "nextPayDate": "2026-08-17",
+    "price": "500"
   }
 ]
