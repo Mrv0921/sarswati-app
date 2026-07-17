@@ -138,5 +138,15 @@
     "joinDate": "2026-07-17",
     "nextPayDate": "2026-08-17",
     "price": "500"
+  },
+  {
+    "seatNo": "16",
+    "name": "Vicky",
+    "mobile": "8797229872",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-17",
+    "nextPayDate": "2026-08-17",
+    "price": "500"
   }
 ]
