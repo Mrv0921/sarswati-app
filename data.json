@@ -98,5 +98,15 @@
     "joinDate": "2026-07-17",
     "nextPayDate": "2026-08-17",
     "price": "500"
+  },
+  {
+    "seatNo": "11",
+    "name": "Shivam jha",
+    "mobile": "9608381731",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-17",
+    "nextPayDate": "2026-08-17",
+    "price": "500"
   }
 ]
