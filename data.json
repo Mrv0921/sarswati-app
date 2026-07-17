@@ -148,5 +148,15 @@
     "joinDate": "2026-07-17",
     "nextPayDate": "2026-08-17",
     "price": "500"
+  },
+  {
+    "seatNo": "15",
+    "name": "Amit",
+    "mobile": "6200736438",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-17",
+    "nextPayDate": "2026-08-17",
+    "price": "500"
   }
 ]
