@@ -188,5 +188,15 @@
     "joinDate": "2026-07-20",
     "nextPayDate": "2026-08-20",
     "price": "500"
+  },
+  {
+    "seatNo": "19",
+    "name": "Adarsh",
+    "mobile": "7250969893",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-20",
+    "nextPayDate": "2026-08-20",
+    "price": "500"
   }
 ]
