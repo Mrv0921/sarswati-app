@@ -188,5 +188,15 @@
     "joinDate": "2026-07-20",
     "nextPayDate": "2026-08-20",
     "price": "500"
+  },
+  {
+    "seatNo": "21",
+    "name": "Ritu",
+    "mobile": "9798598835",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-21",
+    "nextPayDate": "2026-08-21",
+    "price": "500"
   }
 ]
