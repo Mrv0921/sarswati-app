@@ -198,5 +198,15 @@
     "joinDate": "2026-07-21",
     "nextPayDate": "2026-08-21",
     "price": "500"
+  },
+  {
+    "seatNo": "22",
+    "name": "Savera",
+    "mobile": "9693523382",
+    "address": "Bhagwanpur",
+    "slot": "Full Day",
+    "joinDate": "2026-07-21",
+    "nextPayDate": "2026-08-21",
+    "price": "500"
   }
 ]
